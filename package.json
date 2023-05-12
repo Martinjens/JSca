@@ -1,0 +1,27 @@
+{
+  "name": "jsca",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "sass src/scss:dist/css",
+    "watch": "sass --watch src/scss:dist/css & live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Martinjens/JSca.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Martinjens/JSca/issues"
+  },
+  "homepage": "https://github.com/Martinjens/JSca#readme",
+  "devDependencies": {
+    "sass": "^1.62.0"
+  },
+  "dependencies": {
+    "bootstrap": "^5.2.3"
+  }
+}
